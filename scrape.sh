@@ -7,7 +7,7 @@ URL="https://community.tresata.com/posts.json"
 API_KEY="bb962f04bfc55701405c0ad38587f60e5784999be7d5fcced57d37d91a23651c"
 API_USERNAME="system"
 FIRST_POST_ID=2
-OUTPUT_FILE="./documents/extracted-posts.txt"
+OUTPUT_FILE="./documents/extracted-posts-by-system.bsv"
 
 # Execute the curl command and store the response
 response=$(curl -s -X GET "$URL" -H "Api-Key: $API_KEY" -H "Api-Username: $API_USERNAME")
@@ -26,7 +26,7 @@ while [ "$CURR_POST_ID" -gt "$FIRST_POST_ID" ]; do
   response=$(curl -s -X GET "$URL?before=$CURR_POST_ID" -H "Api-Key: $API_KEY" -H "Api-Username: $API_USERNAME")
 
   # Extract posts information using jq
-  posts=$(echo "$response" | jq -r '.latest_posts[] | [.id, .username, .user_title, .raw, .moderator,.admin, .staff, .trust_level, .topic_title, .category_id] | @tsv' | sed 's/\t/|/g')
+  posts=$(echo "$response" | jq -r '.latest_posts[] | select(.username == "system")| [.id, .username, .user_title, .raw, .moderator,.admin, .staff, .trust_level, .topic_title, .category_id] | @tsv' | sed 's/\t/|/g')
 
   # Append extracted information to the output file with a line break after each entry
   while IFS= read -r post; do
