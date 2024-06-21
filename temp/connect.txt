@@ -1,0 +1,89 @@
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      22.72 ms /    98 runs   (    0.23 ms per token,  4313.00 tokens per second)
+llama_print_timings: prompt eval time =   64402.11 ms /   660 tokens (   97.58 ms per token,    10.25 tokens per second)
+llama_print_timings:        eval time =   26030.94 ms /    97 runs   (  268.36 ms per token,     3.73 tokens per second)
+llama_print_timings:       total time =   90504.02 ms /   757 tokens
+ The Connect step in Tresata Data integration software is used for linking records from transactional sources to those in reference sources. It assigns the same Tresata Ids to both the connected records, allowing users to identify an entity with multiple records across different sources under a single Id. This step can be followed by the Against step if users want to connect transactional sources to resolved reference sources. The Connect step is crucial for data integration and ensuring data consistency across various datasets.
+
+
+What is the difference between resolve and against type?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      57.79 ms /   241 runs   (    0.24 ms per token,  4170.42 tokens per second)
+llama_print_timings: prompt eval time =    1761.41 ms /    16 tokens (  110.09 ms per token,     9.08 tokens per second)
+llama_print_timings:        eval time =   64545.27 ms /   240 runs   (  268.94 ms per token,     3.72 tokens per second)
+llama_print_timings:       total time =   66504.96 ms /   256 tokens
+ In Tresata Data integration software, the `resolve` and `against` steps are used for linking records from transactional sources to those in reference sources. The main difference between these two step types lies in their functionality and usage.
+
+The `resolve` step is used when a user wants to connect records only from reference sources. This step assigns the same Tresata Ids to the connected records, allowing users to identify an entity with multiple records under a single Id.
+
+On the other hand, the `against` step enables connecting records from both transactional and reference sources. In this case, the user specifies "from" as the transactional sources and "to" as the reference sources. The end result is the generation of Tresata Ids that uniquely identify an entity with records from different sources under a single Id.
+
+It's important to note that the `against` step allows connecting many records from transactional sources (transactions, purchases, bookings) to at most one record from reference data sources (clients, customers, members). This is because each transaction is unique to a specific type of entity.
+
+
+What are shields?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      15.04 ms /    59 runs   (    0.26 ms per token,  3921.57 tokens per second)
+llama_print_timings: prompt eval time =   38309.63 ms /   345 tokens (  111.04 ms per token,     9.01 tokens per second)
+llama_print_timings:        eval time =   15517.42 ms /    58 runs   (  267.54 ms per token,     3.74 tokens per second)
+llama_print_timings:       total time =   53869.51 ms /   403 tokens
+ In the context of Tresata Data integration software, shields refer to specific fields that, when having different values in records being compared, indicate an incorrect connection and should be broken. These fields help ensure accurate record matching by preventing potential false positives due to similarities in other fields.
+
+
+What does build pipeline button do?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      16.11 ms /    62 runs   (    0.26 ms per token,  3849.74 tokens per second)
+llama_print_timings: prompt eval time =   52415.08 ms /   463 tokens (  113.21 ms per token,     8.83 tokens per second)
+llama_print_timings:        eval time =   16376.24 ms /    61 runs   (  268.46 ms per token,     3.72 tokens per second)
+llama_print_timings:       total time =   68838.04 ms /   524 tokens
+ The "Build Pipeline" button in Tresata's data integration software enables the engine to calculate the pipeline for connections as defined by the user's logic. It is a necessary step to proceed with the CONNECT phase, where records are identified and connected across various data sources and systems.
+
+
+What are connector types?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      37.78 ms /   146 runs   (    0.26 ms per token,  3864.68 tokens per second)
+llama_print_timings: prompt eval time =    1518.34 ms /    13 tokens (  116.80 ms per token,     8.56 tokens per second)
+llama_print_timings:        eval time =   38946.00 ms /   145 runs   (  268.59 ms per token,     3.72 tokens per second)
+llama_print_timings:       total time =   40583.09 ms /   158 tokens
+ Based on the context provided, in the Tresata Data integration software, the "Connect" step is about identifying and connecting records across various data sources and systems to provide a more holistic view of a unique entity. However, the text does not specify any information about connector types within this software. Therefore, I cannot provide an answer with certainty based on the given context alone.
+
+Sorry, the Tresata community doesn’t contain the required information to answer your question about connector types specifically in relation to Tresata's Data integration software. Please let me know if you have any other questions or if there is more context that can be provided regarding this topic within the Tresata platform.
+
+
+Where to use 'Name' connector type?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      45.49 ms /   181 runs   (    0.25 ms per token,  3978.81 tokens per second)
+llama_print_timings: prompt eval time =   69261.47 ms /   596 tokens (  116.21 ms per token,     8.61 tokens per second)
+llama_print_timings:        eval time =   48419.04 ms /   180 runs   (  268.99 ms per token,     3.72 tokens per second)
+llama_print_timings:       total time =  117824.58 ms /   776 tokens
+ Based on the context provided, the 'Connect' step in Tresata Data integration software is used when linking records from transactional sources to those in reference sources. The connector type for this step is not explicitly mentioned as 'Name' in the given information. However, the context does mention that the choice of connector type depends on the sources being connected and the user's intentions. It suggests using the 'resolve' step when connecting only to reference sources and the 'against' step when connecting transactional sources to resolved reference sources. Therefore, it is not clear from the provided context where or if a 'Name' connector type is used specifically.
+
+Sorry, the Tresata community doesn’t contain the required information to answer your question about a specific 'Name' connector type in the given context. Please let me know if you have any other questions.
+
+
+How much time does connect step take?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   48850.82 ms
+llama_print_timings:      sample time =      59.88 ms /   231 runs   (    0.26 ms per token,  3857.91 tokens per second)
+llama_print_timings: prompt eval time =    1921.04 ms /    16 tokens (  120.06 ms per token,     8.33 tokens per second)
+llama_print_timings:        eval time =   61980.12 ms /   230 runs   (  269.48 ms per token,     3.71 tokens per second)
+llama_print_timings:       total time =   64097.13 ms /   246 tokens
+ I'm a Copilot for Tresata Data integration software and based on the context provided, the Connect step is used to link records from transactional sources to those in reference sources and assign them the same Tresata Ids. The exact time taken by this step can vary depending on several factors such as the size of the datasets being connected, the number of records involved, and the complexity of the data. Unfortunately, the context does not provide specific information about the average or estimated time for the Connect step. If you have more detailed information about your use case, I'd be happy to help you further.
+
+However, it is important to note that the Connect step is typically one component of a larger data integration workflow and should be considered in the context of the overall process. The time taken by each step may also depend on the efficiency of the previous steps, such as Source selection and Profiling, which can impact the quality and readiness of the data for the Connect step.
+
+If you have any other questions about Tresata Data integration software or need further clarification, please let me know!
+
+

@@ -1,0 +1,108 @@
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      26.96 ms /   112 runs   (    0.24 ms per token,  4153.99 tokens per second)
+llama_print_timings: prompt eval time =   64217.74 ms /   590 tokens (  108.84 ms per token,     9.19 tokens per second)
+llama_print_timings:        eval time =   32199.48 ms /   111 runs   (  290.09 ms per token,     3.45 tokens per second)
+llama_print_timings:       total time =   96669.64 ms /   701 tokens
+ The Prepare step in Tresata's data integration process is significant because it allows users to clean and standardize their data based on the insights gained during the Profile step. By addressing any inconsistencies or inaccuracies, this step enhances the accuracy of the record linkage process, promotes data integrity, and creates a solid foundation for future analyses and data products. It is crucial for ensuring that the data is ready for further processing and analysis, as uncleaned data can lead to incorrect decisions and wasted resources on manual corrections.
+
+
+What are canonicals in PREPARE step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      48.22 ms /   206 runs   (    0.23 ms per token,  4271.91 tokens per second)
+llama_print_timings: prompt eval time =   66797.79 ms /   597 tokens (  111.89 ms per token,     8.94 tokens per second)
+llama_print_timings:        eval time =   60220.09 ms /   205 runs   (  293.76 ms per token,     3.40 tokens per second)
+llama_print_timings:       total time =  127236.22 ms /   802 tokens
+ Based on the context provided, the PREPARE step in the Tresata Data integration software is not directly related to the concept of canonicals. The context mentions that the PREPARE step is used for data cleaning and transformation tasks such as data type conversion, aggregation, and filtering. Canonicals are typically a concept used in data modeling or master data management to ensure consistency and accuracy of data across different systems by defining a single authoritative source for each entity or attribute. The context does not mention anything about canonicals being part of the PREPARE step in Tresata's software. Therefore, I cannot provide an answer based on the given information.
+
+Sorry, the Tresata community doesn’t contain the required information to answer your question about what canonicals are specifically related to in the PREPARE step of their data integration software. If you have any other questions or if there is additional context that could help clarify this, please let me know.
+
+
+What are cleaners in PREPARE step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      20.80 ms /    86 runs   (    0.24 ms per token,  4134.81 tokens per second)
+llama_print_timings: prompt eval time =   56421.76 ms /   508 tokens (  111.07 ms per token,     9.00 tokens per second)
+llama_print_timings:        eval time =   24281.12 ms /    85 runs   (  285.66 ms per token,     3.50 tokens per second)
+llama_print_timings:       total time =   80766.58 ms /   593 tokens
+ In the context of Tresata's Data integration software, cleaners refer to the tools and techniques used during the Prepare step to clean and improve the quality of data. These cleaners help address issues such as inconsistencies, missing values, and formatting errors in the data, ensuring that it is accurate and ready for further processing in subsequent steps like Connect, Validate, Enrich, and Orchestrate.
+
+
+What are global cleaners in PREPARE step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      32.32 ms /   123 runs   (    0.26 ms per token,  3805.58 tokens per second)
+llama_print_timings: prompt eval time =    2091.40 ms /    18 tokens (  116.19 ms per token,     8.61 tokens per second)
+llama_print_timings:        eval time =   36133.85 ms /   122 runs   (  296.18 ms per token,     3.38 tokens per second)
+llama_print_timings:       total time =   38329.11 ms /   140 tokens
+ In the context of Tresata's Data integration software, the "Prepare" step is focused on cleaning data based on the insights gained from the Profile engine. Global cleaners refer to rules or transformations that can be applied universally across multiple fields or records in the dataset. These cleaners help ensure consistency and accuracy by correcting common issues such as misspelled values, formatting inconsistencies, or outliers. By applying global cleaners during the Prepare step, data quality is improved, reducing the need for manual corrections and increasing the reliability of the resulting data product.
+
+
+How to add cleaners to a field in PREPARE step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      46.90 ms /   200 runs   (    0.23 ms per token,  4264.30 tokens per second)
+llama_print_timings: prompt eval time =    2721.52 ms /    23 tokens (  118.33 ms per token,     8.45 tokens per second)
+llama_print_timings:        eval time =   57739.09 ms /   199 runs   (  290.15 ms per token,     3.45 tokens per second)
+llama_print_timings:       total time =   60625.96 ms /   222 tokens
+ To add cleaners to a field during the Prepare step in Tresata, follow these steps:
+
+1. Navigate to the Prepare tab in your Tresata interface.
+2. Select the data source and the specific field you'd like to apply cleaners to.
+3. Use the tagging interface to identify the issues with the data in that field.
+4. Choose the appropriate cleaner from the list of available options based on the identified issues.
+5. Apply the cleaner by clicking on it, and it will be added to the selected field.
+6. Repeat this process for any additional issues or fields as needed.
+7. Once you're satisfied with the cleaners applied, click "Mark Complete" to save your changes.
+
+Remember that applying cleaners effectively requires a good understanding of the data and its potential issues. The Prepare step is crucial in ensuring accurate and reliable results from your data product.
+
+
+How many cleaners can be applied to a field in PREPARE step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      16.49 ms /    64 runs   (    0.26 ms per token,  3880.90 tokens per second)
+llama_print_timings: prompt eval time =    2816.48 ms /    24 tokens (  117.35 ms per token,     8.52 tokens per second)
+llama_print_timings:        eval time =   17995.02 ms /    63 runs   (  285.64 ms per token,     3.50 tokens per second)
+llama_print_timings:       total time =   20860.41 ms /    87 tokens
+ Based on the context provided, during the Prepare step of Tresata's data integration process, multiple cleaners can be applied to a single field. The selection and application of these cleaners are done through the user interface, allowing users to address various data quality issues and inconsistencies within their dataset.
+
+
+What are regular expressions in prepare step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      29.27 ms /   113 runs   (    0.26 ms per token,  3860.08 tokens per second)
+llama_print_timings: prompt eval time =   93519.13 ms /   801 tokens (  116.75 ms per token,     8.57 tokens per second)
+llama_print_timings:        eval time =   32292.43 ms /   112 runs   (  288.33 ms per token,     3.47 tokens per second)
+llama_print_timings:       total time =  125943.21 ms /   913 tokens
+ I'm a Copilot for Tresata Data integration software. In the Prepare step, regular expressions are used for data transformation and cleaning tasks. They are powerful text patterns that can be used to search for, extract, or replace specific information in data fields. Regular expressions provide flexibility in handling complex data manipulation requirements, such as dealing with inconsistent data formats or extracting specific substrings from larger strings. For instance, they can be employed to standardize dates, remove unwanted characters, or extract specific information from text fields using patterns.
+
+
+What is the regular expression to accept numbers in prepare step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      16.60 ms /    63 runs   (    0.26 ms per token,  3795.87 tokens per second)
+llama_print_timings: prompt eval time =   76761.84 ms /   651 tokens (  117.91 ms per token,     8.48 tokens per second)
+llama_print_timings:        eval time =   17726.16 ms /    62 runs   (  285.91 ms per token,     3.50 tokens per second)
+llama_print_timings:       total time =   94535.09 ms /   713 tokens
+ Based on the context provided, the Regular Expression to accept numbers in the Prepare step of Tresata Data integration software can be expressed as "^[0-9\\]+". This expression accepts only characters from 0 to 9 and the '+' sign indicates that it accepts all digits entered.
+
+
+What is the regular expression to exclude special characters in prepare step?
+Llama.generate: prefix-match hit
+
+llama_print_timings:        load time =   55148.57 ms
+llama_print_timings:      sample time =      21.29 ms /    81 runs   (    0.26 ms per token,  3804.60 tokens per second)
+llama_print_timings: prompt eval time =    1838.55 ms /    15 tokens (  122.57 ms per token,     8.16 tokens per second)
+llama_print_timings:        eval time =   23764.99 ms /    80 runs   (  297.06 ms per token,     3.37 tokens per second)
+llama_print_timings:       total time =   25671.56 ms /    95 tokens
+ Based on the context provided, the regular expression to exclude special characters in the Prepare step of Tresata Data integration software can be represented by the following expression: ^[A-Za-z0-9]+$. This expression matches with characters A to Z, a to z and 0-9 only. The '$' sign at the end ensures that the entire string is matched.
+
+
